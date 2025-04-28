@@ -147,6 +147,7 @@ input:checked + .circle {
     width: 100%;
   }
  
+  
   .hero .button__container a {
     text-align: center;
     justify-content: center;
