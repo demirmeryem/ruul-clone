@@ -1,0 +1,155 @@
+/* Hero */
+
+section .hero {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  max-width: 1160px;
+  padding: 88px 32px 0 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.hero ul {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; 
+  list-style: none;
+  padding-bottom: 24px;
+}
+
+.hero ul li  { 
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.hero ul .list__1 {
+  color: #003e39;
+}
+
+.hero ul .list__2 {
+  color: #002b2878;
+}
+
+.hero__header  {
+  font-size: 96px;
+  font-weight: 900;
+  color: #002b28;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: -3px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+.hero .hero__description  {
+  
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #002b28;
+  text-align: center;
+  padding-bottom: 48px; 
+}
+
+
+
+.button__container {
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+}
+
+
+
+/* Swicth Button */
+
+section .hero .box {
+  width: 46px;
+  height: 24px;
+  background-color: #eeeffc;
+  border-radius:30px;
+  border: 1px solid #cbd0f6;
+  position: relative;
+  display: inline-block;
+  
+}
+
+ section .hero  input {
+  display: none;
+}
+
+section .hero .circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 100px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+
+}
+
+input:checked + .circle {
+  left: 32px; 
+}
+
+
+/* Media Queries (tablet1) */
+
+
+@media (max-width: 960px) {
+  section .hero {
+    padding-top: 60px;
+  }
+}
+
+/* Media Queries (tablet2) */
+
+@media (max-width:840px) {
+  .hero .hero__header {
+    font-size: 60px;
+
+  }
+
+  .hero .hero__description {
+    font-size: 20px;
+  }
+}
+
+/* Media Queries (mobile) */
+
+@media (max-width:540px) {
+  .hero .hero__header {
+    font-size: 42px;
+  }
+
+  .hero .button__container {
+    flex-direction: column;
+
+  }
+
+  .hero .button__container a {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
+
+
+ 
+  
+ 
