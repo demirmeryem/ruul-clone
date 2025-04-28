@@ -87,7 +87,7 @@ section .hero .box {
 }
 
  section .hero  input {
-  display: none;
+ opacity: 0;
 }
 
 section .hero .circle {
@@ -103,9 +103,16 @@ section .hero .circle {
 }
 
 input:checked + .circle {
-  left: 32px; 
+  left: 24px; 
 }
 
+
+
+.hero input {
+  width: 46px;
+  height: 24px;
+
+}
 
 /* Media Queries (tablet1) */
 
