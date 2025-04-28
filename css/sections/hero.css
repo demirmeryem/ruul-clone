@@ -43,7 +43,7 @@ section .hero {
   color: #002b28;
   text-align: center;
   line-height: 1em;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   padding-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +52,7 @@ section .hero {
 
 
 .hero .hero__description  {
-  
+  width: 90%;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5em;
