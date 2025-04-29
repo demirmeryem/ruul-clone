@@ -133,6 +133,7 @@ input:checked + .circle {
 
   .hero .hero__description {
     font-size: 20px;
+    width: 100%;
   }
 }
 

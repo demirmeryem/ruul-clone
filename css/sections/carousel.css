@@ -8,7 +8,7 @@
 .carousel__track {
   display: flex;
   gap: 40px;
-  animation: scroll 40s linear infinite;
+  animation: scroll 15s linear infinite;
 
 }
 
@@ -22,7 +22,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
@@ -34,9 +34,13 @@
   padding-top: 60px;
 }
 
-  .card {
-    width: 420px;
-  }
+.card {
+   width: 420px;
+}
+
+.carousel__track {
+  animation: scroll 5s linear infinite;
+}
   
 }
 
