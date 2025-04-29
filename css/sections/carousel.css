@@ -1,0 +1,37 @@
+.carousel  {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 80px;
+
+}
+
+.carousel__track {
+  display: flex;
+  gap: 40px;
+  animation: scroll 20s linear infinite;
+
+}
+
+
+.card {
+  width: 580px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* Media Queries (tablet or mobile) */
+
+@media (max-width:840px) {
+  .card {
+    width: 420px;
+  }
+}
+
