@@ -10,9 +10,10 @@
 
 
 .definition .container { 
+  justify-content: center;
   max-width: 928px;
   margin: 0 auto;
-  padding: ;
+ 
 }
 
 .definition h1 {

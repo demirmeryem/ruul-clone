@@ -1,0 +1,65 @@
+.tab  {
+  padding: 120px 32px;
+}
+
+.tab .container {
+  margin: 0 auto;
+  max-width: 1160px;
+  
+}
+
+.tab .tab__labels {
+  background-color: #f1f4f0;
+  display: flex;
+  padding: 0 6px;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-bottom: 24px;
+}
+
+
+.tab .tab__labels a {
+  border-radius: 100px;
+  flex: 1;
+  padding: 8px 30px;
+  margin: 6px 0;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.tab__content__wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f4f0;
+  border-radius: 16px;
+  padding: 72px;
+}
+
+
+.tab p {
+  color: #002b28;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  line-height: 160%;
+  letter-spacing: -1.5;
+}
+
+/* İçerikler gizli */
+.tab__content {
+  max-width: 680px;
+  display: none;
+  text-align: center;
+  
+}
+
+/* Aktif içerik */
+.tab__content:target {
+  display: block;
+}
