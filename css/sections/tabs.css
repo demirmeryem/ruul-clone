@@ -76,13 +76,3 @@
 
 }
 
-.tab__content img {
-  height: 270px;
-}
-
-
-.tab__content .image__group {
-  display: flex;
-  padding-top: 48px;
-  gap: 16px;
-}
