@@ -1,8 +1,6 @@
 /* Hero */
 
 section .hero {
-  align-items: center;
-  justify-content: center;
   display: block;
   max-width: 1160px;
   padding: 88px 32px 0 32px;

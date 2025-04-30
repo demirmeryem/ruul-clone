@@ -5,7 +5,6 @@
 .tab .container {
   margin: 0 auto;
   max-width: 1160px;
-  
 }
 
 .tab .tab__labels {
@@ -34,7 +33,10 @@
 
 .tab__content__wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 24px;
   background-color: #f1f4f0;
   border-radius: 16px;
   padding: 72px;
@@ -42,19 +44,22 @@
 
 
 .tab p {
+  
   color: #002b28;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  text-align: center;
   line-height: 160%;
   letter-spacing: -1.5;
+  padding-bottom: 24px;
 }
 
 /* İçerikler gizli */
 .tab__content {
   max-width: 680px;
   display: none;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   
 }
@@ -62,4 +67,22 @@
 /* Aktif içerik */
 .tab__content:target {
   display: block;
+}
+
+.tab__content .primary__button {
+  width: fit-content;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.tab__content img {
+  height: 270px;
+}
+
+
+.tab__content .image__group {
+  display: flex;
+  padding-top: 48px;
+  gap: 16px;
 }
