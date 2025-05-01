@@ -21,7 +21,7 @@
 .tab .tab__labels a {
   border-radius: 100px;
   flex: 1;
-  padding: 8px 30px;
+  padding: 12px 30px;
   margin: 6px 0;
   color: #222222;
   font-size: 18px;
@@ -36,8 +36,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
   background-color: #f1f4f0;
+  gap: 24px;
   border-radius: 16px;
   padding: 72px;
 }
@@ -55,19 +55,17 @@
 }
 
 /* İçerikler gizli */
+
+
 .tab__content {
   max-width: 680px;
   display: none;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
+  background-color: #f1f4f0;
 }
 
-/* Aktif içerik */
-.tab__content:target {
-  display: block;
-}
 
 .tab__content .primary__button {
   width: fit-content;
@@ -76,3 +74,65 @@
 
 }
 
+.tab .tab__content h1 {
+  display: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  color: #002b28;
+}
+
+
+.tab__link.active {
+  background-color: #002b28;
+  color: white !important ;
+
+}
+
+
+
+/* Media Queries (tablet1) */
+
+@media(max-width: 768px) {
+
+  .tab {
+    padding: 32px;
+  }
+
+  .tab .tab__content__wrapper {
+    background-color: white;
+    padding: 0;
+  }
+  
+  .tab .tab__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap 24px;
+    padding: 32px;
+  }
+
+  .tab .container .tab__labels {
+    display: none;
+  }
+
+  .tab .tab__content h1 {
+    display: block;
+  }
+
+  .tab .tab__content p {
+    font-size: 18px;
+  }
+
+
+}
+
+
+/* Media Queries (Mobile) */
+
+@media(max-width: 540px) {
+  .tab .tab__content {
+    padding: 20px;
+    border-radius: 16px;
+  }
+}
