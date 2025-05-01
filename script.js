@@ -37,20 +37,20 @@
       document.addEventListener("DOMContentLoaded", function () {
         const links = document.querySelectorAll(".tab__link");
         const contents = document.querySelectorAll(".tab__content");
-    
+      
         function activateTab(index) {
           // Tüm sekmeleri ve içerikleri sıfırla
           links.forEach(link => link.classList.remove("active"));
           contents.forEach(content => content.style.display = "none");
-    
+      
           // Aktif sekmeye class ekle, içeriğini göster
           links[index].classList.add("active");
           contents[index].style.display = "flex";
         }
-    
+      
         // İlk sekmeyi varsayılan olarak aç
         activateTab(0);
-    
+      
         // Tıklama olaylarını tanımla
         links.forEach((link, index) => {
           link.addEventListener("click", function (e) {
