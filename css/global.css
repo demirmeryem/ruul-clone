@@ -13,6 +13,7 @@
 
 .primary__button {
   display: flex;
+  width: fit-content;
   gap: 8px;
   background-color: #002b28;
   color: white;
@@ -32,6 +33,7 @@
 
 .secondary__button {
   display: flex;
+  width: fit-content;
   gap: 8px;
   background-color: #f1f4f0;
   color:#002b28;
@@ -47,6 +49,7 @@
 
 
 .tertiary__button {
+  width: fit-content;
   background-color: #002b28;
   color: white;
   padding: 14px 14px;

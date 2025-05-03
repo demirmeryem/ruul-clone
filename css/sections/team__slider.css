@@ -1,0 +1,61 @@
+.team__slider {
+  height: auto;
+  background-color:#bcf5f1;
+  background-image: url(https://cdn.prod.website-files.com/63fffb3513dd1b7acde9449c/66fd40c661b3334a0fcb14ae_teambg_2.png);
+  background-size: cover;
+  position: relative;
+
+}
+
+.team__slider img {
+  background-size: cover;
+}
+
+.team__slider .content {
+  max-width: 1660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 120px 0;
+  color: #e44506;
+
+}
+
+.team__slider .header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
+.team__slider .slider img {
+  width: 350px;
+  border-radius: 16px;
+  border: 12px solid white;
+  
+}
+
+.team__slider .header h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.team__slider .header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding-bottom: 32px;
+}
+
+.team__slider .slider {
+  display: flex;
+  gap: 32px;
+}
+
+
+
+
+
+

@@ -154,11 +154,7 @@ input:checked + .circle {
   }
  
   
-  .hero .button__container a {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-  }
+ 
 
  
 }

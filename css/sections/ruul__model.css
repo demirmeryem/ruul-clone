@@ -1,0 +1,159 @@
+.ruul__model {
+  padding: 120px  32px 32px 32px;
+  background-color: #f1f4f0;
+}
+
+.ruul__model .content1 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1160px;
+  gap: 60px;
+  padding-bottom: 60px;
+}
+
+
+.ruul__model .column1 h1 {
+  color: #002b28;
+  font-size:16px;
+  font-weight: 600;
+  padding-bottom: 40px;
+  
+}
+
+.ruul__model .column1 p {
+  color: #002b28;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  
+}
+
+.ruul__model .button__group {
+  display: flex;
+  gap: 12px;
+  padding-top: 32px;
+}
+
+.ruul__model .column2 h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #002b28;
+  padding-bottom: 20px;
+
+}
+
+.ruul__model .column2 p {
+  color: #002b28;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+ 
+}
+
+.ruul__model .column2 .row1 {
+  display: flex;
+  padding-bottom: 32px;
+  gap: 40px;
+}
+
+.ruul__model .column2 .row2 {
+  display: flex;
+  gap: 40px;
+  padding-top: 32px;
+  
+}
+
+
+.ruul__model .content2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1160px;
+  gap: 32px;
+ 
+}
+
+.ruul__model .box__container {
+  display: flex;
+  margin: 0 auto;
+  gap: 32px;
+  
+}
+
+.ruul__model .box__container .box1,.box2,.box3,.box4 {
+  display: flex;
+  flex-direction: column;
+  color: #002b28;
+  background-color: #f5da2a;
+  padding: 40px 32px;
+  border-radius: 16px;
+  gap: 24px;
+}
+
+.ruul__model .content2 .number__box {
+  display: flex;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  padding: 0 20px;
+  border-radius: 8px;
+  background-color: #002b28;
+}
+
+.ruul__model .content2 h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #d7dede;
+}
+
+.ruul__model .content2 h2 {
+  color: #002b28;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ruul__model .content2 p {
+  color: #002b28;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+
+/* Media Queries (tablet) */
+
+@media (max-width: 960px) {
+
+ .ruul__model  .content1 {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .ruul__model  .content2 .box__container {
+  display: flex;
+  flex-direction: column;
+ }
+
+}
+
+/* Media Queries (mobile) */
+
+@media (max-width:540px) {
+  .ruul__model .content1 .row1,.row2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ruul__model .button__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ruul__model .button__group .primary__button,.secondary__button {
+    width: auto;
+    justify-content: center;
+  }
+
+
+  
+}
