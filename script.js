@@ -62,4 +62,28 @@
 
 
 
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const questions = document.querySelectorAll(".faq__question");
+    
+        questions.forEach((question) => {
+          question.addEventListener("click", function (e) {
+            e.preventDefault(); // Sayfa başına atlamayı engelle
+    
+            const isActive = this.classList.contains("active");
+            const answer = this.nextElementSibling;
+    
+            // Diğer tüm aktifleri kapat
+            document.querySelectorAll(".faq__question").forEach((q) => q.classList.remove("active"));
+            document.querySelectorAll(".faq__answer").forEach((a) => a.style.maxHeight = null);
+    
+            if (!isActive) {
+              this.classList.add("active");
+              answer.style.maxHeight = answer.scrollHeight + "px";
+            }
+          });
+        });
+      });
+
       
