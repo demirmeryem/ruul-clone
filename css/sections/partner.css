@@ -1,0 +1,145 @@
+.partner  {
+  background-color: #002b28;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
+
+
+.partner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.partner .container .header {
+  text-align: center;
+  max-width: 800px;
+  padding-bottom: 48px;
+}
+
+.partner .container .header h1 {
+  color: #f1f4f080;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  
+}
+
+.partner .container .header p {
+  color: #f2f4f0;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+
+.partner .wrap {
+  display: flex;
+  flex-flow: wrap;
+}
+
+
+.partner .container .logo__card {
+  background-color: #003e39;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  grid-column-gap: 142px;
+  grid-row-gap: 64px;
+  padding: 64px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.partner .container .logo__card .toyota {
+  width: 180px;
+  opacity: .5;
+}
+
+.partner .container .logo__card .klarna {
+  width: 135px;
+  opacity: .5;
+}
+
+.partner .container .logo__card .sotheby {
+  width: 162px;
+  opacity: .5;
+}
+
+.partner .container .logo__card .KPMG {
+  width: 153px;
+  opacity: .5;
+}
+
+.partner .container .logo__card .channel {
+  width: 109px;
+  opacity: .5;
+}
+
+.partner .container .logo__card .camper {
+  width: 135px;
+  opacity: .5;
+}
+
+
+
+.partner .logo__statics {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.partner .logo__statics .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: #003e39;
+  border-radius: 16px;
+  padding: 24px;
+  gap: 12px;
+}
+
+
+.partner .logo__statics .box h1 {
+  color: #f1f4f080;
+  font-size: 14px;
+}
+
+
+.partner .logo__statics .box p {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+/* tablet 7*/
+
+@media(max-width: 840px) {
+
+  .partner .logo__statics {
+    flex-direction: column;
+  }
+
+  .partner .logo__statics .box {
+    flex-grow: 1;
+
+  }
+}
+
+/* mobile 7*/
+
+@media(max-width: 640px) {
+
+  .partner .container .header p {
+    font-size: 40px;
+  }
+}
