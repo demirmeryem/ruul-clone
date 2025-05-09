@@ -1,4 +1,4 @@
-.carousel  {
+.carousel {
   overflow: hidden;
   width: 100%;
   padding-top: 80px;
@@ -9,8 +9,8 @@
 .carousel__track {
   display: flex;
   gap: 40px;
-  animation: scroll 15s linear infinite;
-
+  animation: scroll 10s linear infinite;
+  width: max-content;
 }
 
 
@@ -22,8 +22,9 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-1860px);
   }
 }
 
@@ -31,17 +32,16 @@
 /* Media Queries (tablet or mobile) */
 
 @media (max-width:840px) {
-.carousel {
-  padding-top: 60px;
-}
+  .carousel {
+    padding-top: 60px;
+  }
 
-.card {
-   width: 420px;
-}
+  .card {
+    width: 420px;
+  }
 
-.carousel__track {
-  animation: scroll 5s linear infinite;
-}
-  
-}
+  .carousel__track {
+    animation: scroll 5s linear infinite;
+  }
 
+}
