@@ -6,7 +6,7 @@ section .hero {
   padding: 88px 32px 0 32px;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 
@@ -16,12 +16,12 @@ section .hero {
   margin-right: auto;
   align-items: center;
   justify-content: center;
-  gap: 8px; 
+  gap: 8px;
   list-style: none;
   padding-bottom: 24px;
 }
 
-.hero ul li  { 
+.hero ul li {
   font-size: 14px;
   font-weight: 600;
 
@@ -35,7 +35,7 @@ section .hero {
   color: #002b2878;
 }
 
-.hero__header  {
+.hero__header {
   font-size: 96px;
   font-weight: 900;
   color: #002b28;
@@ -49,14 +49,14 @@ section .hero {
 }
 
 
-.hero .hero__description  {
+.hero .hero__description {
   width: 90%;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5em;
   color: #002b28;
   text-align: center;
-  padding-bottom: 48px; 
+  padding-bottom: 48px;
 }
 
 
@@ -77,15 +77,15 @@ section .hero .box {
   width: 46px;
   height: 24px;
   background-color: #eeeffc;
-  border-radius:30px;
+  border-radius: 30px;
   border: 1px solid #cbd0f6;
   position: relative;
   display: inline-block;
-  
+
 }
 
- section .hero  input {
- opacity: 0;
+section .hero input {
+  opacity: 0;
 }
 
 section .hero .circle {
@@ -100,8 +100,8 @@ section .hero .circle {
 
 }
 
-input:checked + .circle {
-  left: 24px; 
+input:checked+.circle {
+  left: 24px;
 }
 
 
@@ -139,7 +139,7 @@ input:checked + .circle {
 
 @media (max-width:540px) {
   .hero .hero__header {
-    font-size: 42px;
+    font-size: 31px;
   }
 
   .hero .button__container {
@@ -152,14 +152,9 @@ input:checked + .circle {
     justify-content: center;
     width: 100%;
   }
- 
-  
- 
 
- 
+
+
+
+
 }
-
-
- 
-  
- 
