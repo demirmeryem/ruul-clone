@@ -5,7 +5,7 @@
 
 
 .features .grid__module {
-  display: grid;
+  display:none;
   grid-template-columns: 180px 180px 180px 180px;
   grid-template-rows: auto auto auto;
   justify-content: center;

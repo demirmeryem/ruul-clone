@@ -39,7 +39,6 @@
   font-weight: 600;
   color: #002b28;
   padding-bottom: 20px;
-
 }
 
 .ruul__model .column2 p {
@@ -47,7 +46,6 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
- 
 }
 
 .ruul__model .column2 .row1 {
@@ -59,8 +57,7 @@
 .ruul__model .column2 .row2 {
   display: flex;
   gap: 40px;
-  padding-top: 32px;
-  
+  padding-top: 32px; 
 }
 
 
@@ -70,14 +67,12 @@
   margin: 0 auto;
   max-width: 1160px;
   gap: 32px;
- 
 }
 
 .ruul__model .box__container {
   display: flex;
   margin: 0 auto;
   gap: 32px;
-  
 }
 
 .ruul__model .box__container .box1,.box2,.box3,.box4 {
@@ -123,7 +118,6 @@
 /* Media Queries (tablet) */
 
 @media (max-width: 960px) {
-
  .ruul__model  .content1 {
   display: flex;
   flex-direction: column;
@@ -136,7 +130,9 @@
 
 }
 
+
 /* Media Queries (mobile) */
+
 
 @media (max-width:540px) {
   .ruul__model .content1 .row1,.row2 {

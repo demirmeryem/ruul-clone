@@ -4,7 +4,6 @@
   background-image: url(https://cdn.prod.website-files.com/63fffb3513dd1b7acde9449c/66fd40c661b3334a0fcb14ae_teambg_2.png);
   background-size: cover;
   position: relative;
-
 }
 
 .team__slider img {
@@ -20,7 +19,6 @@
   margin: 0 auto;
   padding: 120px 0;
   color: #e44506;
-
 }
 
 .team__slider .header {

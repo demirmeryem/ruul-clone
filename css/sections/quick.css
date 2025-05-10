@@ -25,8 +25,6 @@ width: 150px;
   font-size: 24px;
   font-weight: 500;
   color: #002b28;
-  
-
 }
 
 
@@ -35,11 +33,11 @@ width: 150px;
   font-weight: 500;
   line-height: 160%;
   color: #002b28;
-  
 }
 
 
 /* Media Queries (tablet ) */
+
 
 @media (max-width: 960px){ 
   .quick__inform .content {
@@ -60,7 +58,9 @@ width: 150px;
   }
 }
 
+
 /* Media Queries (Mobile) */
+
 
 @media (max-width: 540px) {
   .quick__inform img {

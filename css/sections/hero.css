@@ -5,8 +5,7 @@ section .hero {
   max-width: 1160px;
   padding: 88px 32px 0 32px;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
 
 
@@ -24,7 +23,6 @@ section .hero {
 .hero ul li  { 
   font-size: 14px;
   font-weight: 600;
-
 }
 
 .hero ul .list__1 {
@@ -73,6 +71,7 @@ section .hero {
 
 /* Swicth Button */
 
+
 section .hero .box {
   width: 46px;
   height: 24px;
@@ -81,7 +80,6 @@ section .hero .box {
   border: 1px solid #cbd0f6;
   position: relative;
   display: inline-block;
-  
 }
 
  section .hero  input {
@@ -97,7 +95,6 @@ section .hero .circle {
   top: 2px;
   left: 2px;
   transition: 0.3s;
-
 }
 
 input:checked + .circle {
@@ -105,12 +102,11 @@ input:checked + .circle {
 }
 
 
-
 .hero input {
   width: 46px;
   height: 24px;
-
 }
+
 
 /* Media Queries (tablet1) */
 
@@ -126,7 +122,6 @@ input:checked + .circle {
 @media (max-width:840px) {
   .hero .hero__header {
     font-size: 60px;
-
   }
 
   .hero .hero__description {
@@ -144,7 +139,6 @@ input:checked + .circle {
 
   .hero .button__container {
     flex-direction: column;
-
   }
 
   .hero .button__container a {

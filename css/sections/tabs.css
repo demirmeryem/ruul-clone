@@ -54,6 +54,7 @@
   padding-bottom: 24px;
 }
 
+
 /* İçerikler gizli */
 
 
@@ -71,7 +72,6 @@
   width: fit-content;
   display: inline-flex;
   justify-content: center;
-
 }
 
 .tab .tab__content h1 {
@@ -86,12 +86,12 @@
 .tab__link.active {
   background-color: #002b28;
   color: white !important ;
-
 }
 
 
 
 /* Media Queries (tablet) */
+
 
 @media(max-width: 768px) {
   .tab {
@@ -127,6 +127,7 @@
 
 
 /* Media Queries (Mobile) */
+
 
 @media(max-width: 540px) {
   .tab .tab__content {

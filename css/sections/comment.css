@@ -18,7 +18,6 @@ section .comment {
 .comment .container {
   padding-left: 32px;
   padding-right: 32px;
-
 }
 
 .comment .container .box__group .box {
@@ -36,7 +35,6 @@ section .comment {
   border: 4px solid #ffffff;
   width: 48px;
   height: 48px;
-  
 }
 
 .comment .container .box__group .box p {
@@ -44,7 +42,6 @@ section .comment {
   font-weight: 500;
   color: #002b28;
   letter-spacing: -1px;
-
 }
 
 .comment .container   .box__group .box .text__group {
@@ -66,13 +63,13 @@ section .comment {
 }
 
 
-/* tablet */
+/* Media Queries (tablet) */
+
 
 @media(max-width: 960px) {
   .comment .container .box__group {
     flex-direction: column;
   }
-
 }
 
 

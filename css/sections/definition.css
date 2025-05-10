@@ -13,7 +13,6 @@
   justify-content: center;
   max-width: 928px;
   margin: 0 auto;
- 
 }
 
 .definition h1 {
@@ -22,7 +21,6 @@ font-size: 18px;
 padding-bottom: 12px;
 letter-spacing: 1px;
 font-weight: 600;
-
 }
 
 .definition h2 {
@@ -43,26 +41,25 @@ border-radius: 24px;
   background-color: #002b28;;
   padding: 4px 24px 4px 24px;
   border-radius: 24px;
-  }
+}
 
 
-  /* Media Queries (tablet or mobile) */
+/* Media Queries (tablet or mobile) */
 
-  @media (max-width:840px) {
-    .definition h2 {
-      font-size: 32px;
-    }
+@media (max-width:840px) {
+   .definition h2 {
+    font-size: 32px;
+   }
 
-    .definition .container {
-    max-width: 510px;
-  
-    }
+ .definition .container {
+   max-width: 510px;
+ }
 
-    .definition h2 {
-      letter-spacing: -1.5px;
-      line-height: 1.5;
-    }
-  }
+.definition h2 {
+  letter-spacing: -1.5px;
+  line-height: 1.5;
+}
+}
     
   
     
