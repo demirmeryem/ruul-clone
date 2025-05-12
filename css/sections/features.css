@@ -5,13 +5,8 @@
 
 
 .features .grid__module {
-<<<<<<< HEAD
-  display:none;
-  grid-template-columns: 180px 180px 180px 180px;
-=======
   display: grid;
   grid-template-columns: repeat(4, 180px);
->>>>>>> da4f3046873b235fc5398912a080a6741525517d
   grid-template-rows: auto auto auto;
   justify-content: center;
   grid-column-gap: 24px;

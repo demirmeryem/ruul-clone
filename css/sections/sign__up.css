@@ -73,8 +73,14 @@
 }
 
 .sign__up .container .content .box__2  {
-  padding: 0 60px 0 60px;
+  padding: 0 40px 0 40px;
   width: 100%;
   text-align: left;
 }
+
+.sign__up .container .content .box1  h1 {
+  font-size: 40px;
+}
+
+
 }

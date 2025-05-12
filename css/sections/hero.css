@@ -81,14 +81,14 @@ section .hero .box {
   border: 1px solid #cbd0f6;
   position: relative;
   display: inline-block;
-<<<<<<< HEAD
-=======
-
->>>>>>> da4f3046873b235fc5398912a080a6741525517d
 }
 
 section .hero input {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 10;
   opacity: 0;
+  cursor: pointer;
 }
 
 section .hero .circle {
